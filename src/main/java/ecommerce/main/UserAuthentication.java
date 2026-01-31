@@ -1,5 +1,6 @@
 package ecommerce.main;
 
+import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -117,8 +118,8 @@ public class UserAuthentication extends BaseClass {
 	WebElement successMessage1;
 
 	public void signUP(String Name, String Email, String gender, String Uname, String UEmail, String UPwd, String Udays,
-			int UMonths, String UYears, String fname, String lname, String Company, String add1, String add2,
-			String Cntry, String State, String City, String ZipCode, String PhoneNum) {
+			String UMonths, String UYears, String fname, String lname, String Company, String add1, String add2,
+			String Cntry, String State, String City, String ZipCode, String PhoneNum) throws IOException {
 
 		js.executeScript("arguments[0].click()", loginSingupBtn);
 		wait.until(ExpectedConditions.visibilityOf(loginEmail));
@@ -145,7 +146,7 @@ public class UserAuthentication extends BaseClass {
 			js.executeScript("arguments[0].value=arguments[1];", password, UPwd);
 
 			UtilityFunctions.selectionFromDropDownViaContainsVisibleText(days, Udays);
-			UtilityFunctions.selectionFromDropDownViaIndex(months, UMonths);
+			UtilityFunctions.selectionFromDropDownViaContainsVisibleText(months, UMonths);
 			UtilityFunctions.selectionFromDropDownViaVisibleText(years, UYears);
 
 			newsletter.click();
@@ -170,6 +171,7 @@ public class UserAuthentication extends BaseClass {
 			Assert.assertEquals(Actual_Msg, Expected_Message);
 			log.info("Account Created");
 			System.out.println("Account Created for : "+Name+" user");	
+            //ExcelUtility.setStatus("Pass", Integer.parseInt("5"), "D:\\SeleniumPractice\\ecommerce.project\\TestCases\\TestCaseAutomationSeries.xlsx");
 		}
 		}
 }

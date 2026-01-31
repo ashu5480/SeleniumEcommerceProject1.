@@ -27,10 +27,6 @@ public class UtilityFunctions extends BaseClass{
 		Select sel = new Select(elm);
 		sel.selectByContainsVisibleText(value);
 	}
-	public static void selectionFromDropDownViaIndex(WebElement elm, int index) {
-		Select sel = new Select(elm);
-		sel.selectByIndex(index);
-	}
 	
 	public static void selectionFromDropDownViaVisibleText(WebElement elm, String value) {
 		Select sel = new Select(elm);

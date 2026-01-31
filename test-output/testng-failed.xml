@@ -7,7 +7,8 @@
         <methods>
           <include name="userAuthenticate"/>
           <include name="setReports"/>
-          <include name="signUpUser" invocation-numbers="0 1 2"/>
+          <include name="setStatus"/>
+          <include name="signUpUser" invocation-numbers="0"/>
           <include name="flushTest"/>
         </methods>
       </class> <!-- ecommerce.test.UserAuthenticationTest -->

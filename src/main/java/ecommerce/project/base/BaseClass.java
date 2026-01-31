@@ -18,6 +18,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -26,6 +28,8 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+
+import ecommerce.utils.ExcelUtility;
 
 public class BaseClass {
 
@@ -62,7 +66,7 @@ public class BaseClass {
 	@BeforeTest
 	public static ExtentReports setReports() {
 		ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(
-				"D:\\SeleniumPractice\\ecommerce.project\\ProjectExtentReports");
+				"D:\\SeleniumPractice\\ecommerce.project\\ProjectExtentReports\\ECommerceReport.html");
 		extentReports = new ExtentReports();
 		extentReports.attachReporter(extentSparkReporter);
 		extentReports.setSystemInfo("Author", "Ashutosh Singh");
@@ -71,7 +75,7 @@ public class BaseClass {
 		extentReports.setSystemInfo("Project-Based", "WebBased");
 
 		extentSparkReporter.config().setDocumentTitle("ECommerce Project");
-		extentSparkReporter.config().setReportName("ECommerceProjectReport");
+		extentSparkReporter.config().setReportName("\\ECommerceProjectReport.html");
 		extentSparkReporter.config().setTheme(Theme.DARK);
 		extentSparkReporter.config().setEncoding("UTF8");
 
@@ -106,6 +110,17 @@ public class BaseClass {
 		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 	}
 
+	@AfterMethod
+	public void setStatus(ITestResult result) throws IOException {
+		if(result.getStatus()==ITestResult.SUCCESS) {
+			ExcelUtility.setStatus("Pass", 2, "D:\\SeleniumPractice\\ecommerce.project\\TestCases\\TestCase.xlsx");
+			log.debug("Erro");
+		}
+		else if(result.getStatus()==ITestResult.FAILURE) {
+			ExcelUtility.setStatus("Fail", 2, "D:\\SeleniumPractice\\ecommerce.project\\TestCases\\TestCase.xlsx");
+		}
+	}
+	
 	@AfterTest
 	public void flushTest() {
 		extentReports.flush();
