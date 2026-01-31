@@ -61,3 +61,427 @@
 2026-01-30 09:30:24 INFO  ecommerce.project.base.BaseClass - Account Created
 2026-01-30 09:30:24 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
 2026-01-30 09:30:26 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 09:43:11 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 09:43:24 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 09:47:01 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 09:47:16 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 09:47:16 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 09:47:24 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 09:47:34 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 09:47:34 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 09:47:39 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 09:47:50 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 09:47:51 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 09:49:34 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 09:49:45 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 09:49:45 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 09:49:48 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 09:50:00 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 09:50:00 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 09:50:03 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 09:50:33 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 09:50:34 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 09:50:36 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 09:51:56 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 09:52:10 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 09:52:10 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 10:02:37 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 10:02:51 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 10:02:51 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 10:02:56 ERROR ecommerce.project.base.BaseClass - Email already exist..
+2026-01-30 10:02:59 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 10:09:05 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 10:09:18 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 10:09:18 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 10:10:59 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 10:11:12 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 10:11:12 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 10:17:18 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 10:21:31 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 10:25:38 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 11:11:03 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:13:19 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:13:19 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:14:53 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:15:16 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:15:16 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:19:51 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:20:24 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:20:24 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:25:44 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:26:06 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:26:06 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:31:48 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:32:07 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:32:07 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:34:53 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:35:13 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:35:13 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:36:41 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:36:48 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:36:48 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:41:36 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:41:45 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:41:45 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:42:33 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:42:42 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:42:42 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:44:51 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:45:20 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:45:20 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:47:47 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:48:06 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:48:06 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:51:05 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:51:25 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:51:26 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:52:58 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 11:53:36 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 11:53:36 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 11:58:27 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:00:49 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:00:49 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:00:52 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 12:00:52 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 12:01:00 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:01:25 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:01:44 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:01:44 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:01:46 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 12:01:46 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 12:01:58 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 12:01:58 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 12:02:01 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:02:10 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:02:10 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:02:12 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 12:02:12 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 12:06:57 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:07:36 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:07:36 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:07:40 ERROR ecommerce.project.base.BaseClass - Email Already Exist
+2026-01-30 12:07:43 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:08:26 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:08:33 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:08:33 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:08:35 ERROR ecommerce.project.base.BaseClass - Email Already Exist
+2026-01-30 12:08:39 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:13:05 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:13:15 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:13:15 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:13:19 ERROR ecommerce.project.base.BaseClass - Email Already Exist
+2026-01-30 12:13:23 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:24:18 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:25:36 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:25:47 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:25:47 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:25:51 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:26:47 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:27:09 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:27:09 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:27:14 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:32:02 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:32:39 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:32:39 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:36:37 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:36:56 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:37:29 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:38:32 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:40:40 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:41:56 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:43:38 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:43:56 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 12:46:00 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:46:21 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:46:21 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:47:17 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 12:47:19 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:47:40 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:47:40 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:48:05 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:48:59 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:48:59 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:49:26 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 12:49:30 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:51:31 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:51:39 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:51:39 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:51:41 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 12:51:41 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 12:51:51 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 12:51:51 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 12:51:54 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:52:25 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:52:25 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 12:52:30 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 12:52:30 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 12:57:24 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 12:57:36 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 12:57:36 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 13:01:26 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 13:01:34 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 13:01:34 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 13:02:44 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 13:02:47 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 13:03:07 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 13:03:45 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 13:03:45 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 13:08:24 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 13:08:32 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 13:08:32 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 18:59:04 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 18:59:19 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 18:59:19 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 18:59:21 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 18:59:21 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 18:59:36 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 18:59:36 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 18:59:40 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 18:59:53 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 18:59:53 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 18:59:56 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 18:59:56 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 20:03:20 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 20:04:46 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 20:04:46 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 20:06:31 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 20:07:48 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 20:07:48 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 20:09:02 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 20:09:02 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 20:10:22 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 20:10:22 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 20:11:09 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 20:11:54 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 20:11:54 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 20:14:56 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 20:14:56 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 20:20:51 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 20:22:41 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 20:22:42 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 20:22:54 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 20:22:54 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 20:23:17 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 20:23:17 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 20:23:19 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 20:24:53 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 20:24:53 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 20:24:56 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-30 20:24:56 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 20:24:59 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 20:26:57 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 20:26:57 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 20:27:05 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-30 20:27:05 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 20:27:06 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 20:30:45 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 20:33:48 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 20:34:08 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 20:38:22 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 20:38:22 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 20:38:36 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 20:38:36 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 20:38:46 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 20:38:46 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 20:38:49 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 20:39:10 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 20:39:11 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 20:39:16 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-30 20:39:21 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 21:01:47 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 21:06:47 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 21:07:46 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 21:08:44 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 21:08:44 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 21:09:20 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 21:09:20 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 21:09:37 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 21:09:37 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 21:09:40 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 21:11:37 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 21:11:37 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 21:11:42 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-30 21:11:45 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 21:14:28 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 21:14:54 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 21:14:54 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 21:15:06 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 21:15:06 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 21:15:19 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 21:15:19 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 21:15:22 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 21:16:46 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 21:16:46 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 21:16:48 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-30 21:16:51 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-30 21:18:31 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 21:18:44 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 21:18:44 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 21:18:56 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-30 21:18:56 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-30 21:19:08 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-30 21:19:08 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-30 21:19:10 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-30 21:20:56 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-30 21:20:56 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-30 21:20:59 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-30 21:21:02 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 11:48:22 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 11:48:47 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 11:48:47 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 11:48:59 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-31 11:48:59 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-31 11:49:08 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-31 11:49:08 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-31 11:49:11 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 11:49:17 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 11:49:17 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 11:49:18 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 11:49:20 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 11:51:01 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 11:51:08 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 11:51:08 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 11:51:20 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-31 11:51:20 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-31 11:51:29 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-31 11:51:29 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-31 11:51:32 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 11:51:41 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 11:51:41 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 11:51:55 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-31 11:51:55 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-31 11:52:06 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-31 11:52:06 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-31 11:52:09 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 11:52:20 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 11:52:20 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 11:52:32 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-31 11:52:32 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-31 11:52:41 INFO  ecommerce.project.base.BaseClass - Account Created
+2026-01-31 11:52:41 INFO  ecommerce.project.base.BaseClass - This Test Case is passed signUpUser
+2026-01-31 11:52:42 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 11:53:33 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 11:53:45 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 11:53:45 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 11:53:47 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 11:53:49 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 11:55:05 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 11:55:27 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 11:55:27 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 11:55:29 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 11:55:32 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 11:59:07 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 11:59:21 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 11:59:21 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 11:59:25 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 11:59:28 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 12:01:36 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 12:01:58 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 12:01:59 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 12:02:00 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 12:02:03 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 12:03:59 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 12:04:05 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 12:04:05 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 12:04:07 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 12:04:08 INFO  ecommerce.project.base.BaseClass - Failure Screenshots are Captured
+2026-01-31 12:04:11 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 12:04:24 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 12:04:24 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 12:04:26 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 12:04:28 INFO  ecommerce.project.base.BaseClass - Failure Screenshots are Captured
+2026-01-31 12:04:31 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 12:04:41 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 12:04:41 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 12:04:43 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 12:04:44 INFO  ecommerce.project.base.BaseClass - Failure Screenshots are Captured
+2026-01-31 12:04:46 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 12:56:14 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 12:56:46 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 12:56:46 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 12:56:49 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 12:56:52 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 12:56:58 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 12:56:58 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 12:57:03 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 12:57:06 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 12:57:13 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 12:57:13 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 12:57:15 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 12:57:16 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 13:01:50 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:02:10 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:02:10 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:02:13 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:02:16 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:02:31 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:02:31 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:02:42 INFO  ecommerce.project.base.BaseClass - Email is unique, proceeding with signup
+2026-01-31 13:02:42 INFO  ecommerce.project.base.BaseClass - Now Provide all Details
+2026-01-31 13:02:44 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:02:53 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:02:53 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:02:56 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:02:58 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 13:07:20 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:07:27 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:07:27 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:07:29 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:07:32 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:07:38 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:07:38 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:07:39 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:07:42 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:07:51 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:07:51 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:07:53 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:07:54 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 13:23:29 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:24:03 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:24:03 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:24:07 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:24:09 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 13:27:54 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:28:22 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:28:22 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:28:23 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:28:25 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 13:32:48 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:33:13 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:33:13 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:33:17 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:33:19 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 13:35:04 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:35:16 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:35:16 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:35:20 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:35:22 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 13:56:02 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:56:09 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:56:09 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:56:12 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:56:13 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 13:58:21 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 13:58:48 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 13:58:48 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 13:58:50 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 13:58:53 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..
+2026-01-31 14:01:54 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 14:02:02 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 14:02:02 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 14:02:03 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 14:02:03 INFO  ecommerce.project.base.BaseClass - This test Case is failed...
+2026-01-31 14:02:04 INFO  ecommerce.project.base.BaseClass - Screenshots Captured for failed Test Case..
+2026-01-31 14:02:07 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 14:02:19 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 14:02:20 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 14:02:21 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 14:02:21 INFO  ecommerce.project.base.BaseClass - This test Case is failed...
+2026-01-31 14:02:23 INFO  ecommerce.project.base.BaseClass - Screenshots Captured for failed Test Case..
+2026-01-31 14:02:27 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-01-31 14:02:41 INFO  ecommerce.project.base.BaseClass - Name Enterd
+2026-01-31 14:02:41 INFO  ecommerce.project.base.BaseClass - Email Enterd
+2026-01-31 14:02:44 ERROR ecommerce.project.base.BaseClass - Email Already Exists...
+2026-01-31 14:02:44 INFO  ecommerce.project.base.BaseClass - This test Case is failed...
+2026-01-31 14:02:44 INFO  ecommerce.project.base.BaseClass - Screenshots Captured for failed Test Case..
+2026-01-31 14:02:46 INFO  ecommerce.project.base.BaseClass - Test Cases Executions are Done..

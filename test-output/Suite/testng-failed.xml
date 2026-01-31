@@ -7,7 +7,7 @@
         <methods>
           <include name="userAuthenticate"/>
           <include name="setReports"/>
-          <include name="signUpUser"/>
+          <include name="signUpUser" invocation-numbers="0"/>
           <include name="flushTest"/>
           <include name="afterResultSetReport"/>
         </methods>

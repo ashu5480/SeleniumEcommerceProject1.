@@ -1,10 +1,14 @@
 package ecommerce.utils;
-
+import java.time.Duration;
 import java.util.ArrayList;
+
 import java.util.List;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import ecommerce.project.base.BaseClass;
 
@@ -60,5 +64,15 @@ public class UtilityFunctions extends BaseClass{
 			arr.add(option.getText().trim());
 		}
 		return arr;
+	}
+	
+	public static boolean isElelmentDisplayed(WebDriver driver, WebElement elm, int sec) {
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sec));
+			wait.until(ExpectedConditions.visibilityOf(elm));
+			return true;
+		} catch (Exception e) {
+			return false;
+		}
 	}
 }

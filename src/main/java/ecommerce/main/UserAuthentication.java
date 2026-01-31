@@ -47,7 +47,7 @@ public class UserAuthentication extends BaseClass {
 	@FindBy(xpath = "//b[text()='Enter Account Information']")
 	WebElement signUPMessage1;
 
-	@FindBy(xpath = "//p[text()='Email Address already exist!']")
+	@FindBy(xpath = "//form[@action='/signup']//p[text()='Email Address already exist!']")
 	WebElement signUPAlreadyExistMessage;
 
 	@FindBy(id = "id_gender1")
@@ -119,7 +119,7 @@ public class UserAuthentication extends BaseClass {
 	public void signUP(String Name, String Email, String gender, String Uname, String UEmail, String UPwd, String Udays,
 			int UMonths, String UYears, String fname, String lname, String Company, String add1, String add2,
 			String Cntry, String State, String City, String ZipCode, String PhoneNum) {
-		
+
 		js.executeScript("arguments[0].click()", loginSingupBtn);
 		wait.until(ExpectedConditions.visibilityOf(loginEmail));
 		signupName.sendKeys(Name);
@@ -128,48 +128,48 @@ public class UserAuthentication extends BaseClass {
 		log.info("Email Enterd");
 		js.executeScript("arguments[0].click()", signUPBtn);
 
-		wait.until(ExpectedConditions.visibilityOf(signUPMessage1));
-		log.info("Now Provide all Details");
-		String ActualMessage = signUPMessage1.getText();
-		String ExpectedMessage = AssertionMessage.signupAssertionMessage;
-
-		Assert.assertEquals(ActualMessage, ExpectedMessage, "Message Mismatch");
-		if(gender.equalsIgnoreCase("Male")) {
-			gender1.click();
+		if(UtilityFunctions.isElelmentDisplayed(driver, signUPAlreadyExistMessage, 10)) {
+			log.error("Email Already Exists...");
+			Assert.fail("SignUp Failed for Email "+UEmail+"(Email Already Exist..");
 		}
 		else {
-			gender2.click();
+			log.info("Email is unique, proceeding with signup");
+			log.info("Now Provide all Details");
+			if (gender.equalsIgnoreCase("Male")) {
+				gender1.click();
+			} else {
+				gender2.click();
+			}
+			js.executeScript("arguments[0].value=arguments[1];", uname, Uname);
+			js.executeScript("arguments[0].value=arguments[1];", email, UEmail);
+			js.executeScript("arguments[0].value=arguments[1];", password, UPwd);
+
+			UtilityFunctions.selectionFromDropDownViaContainsVisibleText(days, Udays);
+			UtilityFunctions.selectionFromDropDownViaIndex(months, UMonths);
+			UtilityFunctions.selectionFromDropDownViaVisibleText(years, UYears);
+
+			newsletter.click();
+			optin.click();
+
+			first_name.sendKeys(fname);
+			last_name.sendKeys(lname);
+			company.sendKeys(Company);
+			address1.sendKeys(add1);
+			address2.sendKeys(add2);
+			UtilityFunctions.selectionFromDropDownViaContainsVisibleText(country, Cntry);
+			state.sendKeys(State);
+			city.sendKeys(City);
+			zipcode.sendKeys(ZipCode);
+			mobile_number.sendKeys(PhoneNum);
+
+			js.executeScript("arguments[0].click()", createAccount);
+
+			String Actual_Msg = successMessage1.getText();
+			String Expected_Message = AssertionMessage.UserAccountCreationMsg;
+
+			Assert.assertEquals(Actual_Msg, Expected_Message);
+			log.info("Account Created");
+			System.out.println("Account Created for : "+Name+" user");	
 		}
-		js.executeScript("arguments[0].value=arguments[1];", uname, Uname);
-		js.executeScript("arguments[0].value=arguments[1];", email, UEmail);
-		js.executeScript("arguments[0].value=arguments[1];", password, UPwd);
-
-		UtilityFunctions.selectionFromDropDownViaContainsVisibleText(days, Udays);
-		UtilityFunctions.selectionFromDropDownViaIndex(months, UMonths);
-		UtilityFunctions.selectionFromDropDownViaVisibleText(years, UYears);
-
-		newsletter.click();
-		optin.click();
-
-		first_name.sendKeys(fname);
-		last_name.sendKeys(lname);
-		company.sendKeys(Company);
-		address1.sendKeys(add1);
-		address2.sendKeys(add2);
-		UtilityFunctions.selectionFromDropDownViaContainsVisibleText(country, Cntry);
-		state.sendKeys(State);
-		city.sendKeys(City);
-		zipcode.sendKeys(ZipCode);
-		mobile_number.sendKeys(PhoneNum);
-
-		js.executeScript("arguments[0].click()",createAccount);
-
-		String Actual_Msg = successMessage1.getText();
-		String Expected_Message = AssertionMessage.UserAccountCreationMsg;
-
-		Assert.assertEquals(Actual_Msg, Expected_Message);
-		log.info("Account Created");
-		System.out.println("Account Created");
-	}
-
+		}
 }
