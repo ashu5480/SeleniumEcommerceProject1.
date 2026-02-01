@@ -1,8 +1,16 @@
 package ecommerce.utils;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 import java.time.Duration;
 import java.util.ArrayList;
-
+import java.util.Base64;
 import java.util.List;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.spec.SecretKeySpec;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,6 +25,8 @@ public class UtilityFunctions extends BaseClass{
 	public UtilityFunctions() {
 		super();
 	}
+	
+	public static final String KEY = prop.getProperty("SECRET_KEY");
 	
 	public static void selectionFromDropDownViaContainsVisibleText(WebElement elm, String value) {
 		Select sel = new Select(elm);
@@ -70,5 +80,19 @@ public class UtilityFunctions extends BaseClass{
 		} catch (Exception e) {
 			return false;
 		}
+	}
+	
+	public static String encrypt(String data) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
+		Cipher cipher = Cipher.getInstance("AES");
+		SecretKeySpec keySpec = new SecretKeySpec(KEY.getBytes(), "AES");
+		cipher.init(Cipher.ENCRYPT_MODE, keySpec);
+		return Base64.getEncoder().encodeToString(cipher.doFinal(data.getBytes()));
+	}
+	
+	public static String decrypt(String data) throws NoSuchAlgorithmException, NoSuchPaddingException, InvalidKeyException, IllegalBlockSizeException, BadPaddingException {
+		Cipher cipher = Cipher.getInstance("AES");
+		SecretKeySpec secretKeySpec = new SecretKeySpec(KEY.getBytes(), "AES");
+		cipher.init(Cipher.DECRYPT_MODE, secretKeySpec);
+		return new String(cipher.doFinal(Base64.getDecoder().decode(data)));
 	}
 }

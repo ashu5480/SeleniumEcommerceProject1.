@@ -1,7 +1,13 @@
 package ecommerce.main;
 
 import java.io.IOException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 import java.time.Duration;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -28,13 +34,16 @@ public class UserAuthentication extends BaseClass {
 	WebElement loginSingupBtn;
 
 	@FindBy(xpath = "//form[@action='/login']//input[2]")
-	WebElement loginEmail;
+	WebElement loginName;
 
 	@FindBy(xpath = "//form[@action='/login']//input[3]")
-	WebElement loginPwd;
+	WebElement loginEmail;
 
 	@FindBy(xpath = "//form[@action='/login']//button")
 	WebElement loginBtn;
+	
+	@FindBy(xpath="//ul[@class='nav navbar-nav']//li[10]//a//b")
+	WebElement loggedInUserVerification;
 
 	@FindBy(xpath = "//form[@action='/signup']//input[2]")
 	WebElement signupName;
@@ -174,4 +183,27 @@ public class UserAuthentication extends BaseClass {
             //ExcelUtility.setStatus("Pass", Integer.parseInt("5"), "D:\\SeleniumPractice\\ecommerce.project\\TestCases\\TestCaseAutomationSeries.xlsx");
 		}
 		}
+	
+	public void loginUser(String Email, String Pwd) throws InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
+		String pwdDecrypt=UtilityFunctions.decrypt(Pwd);
+		js.executeScript("arguments[0].click()", loginSingupBtn);
+		wait.until(ExpectedConditions.visibilityOf(loginEmail));
+		js.executeScript("arguments[0].value=arguments[1]", loginName,Email);
+		log.info("Email Entered"+Email);
+		log.info("Password Entered :"+Pwd);
+		js.executeScript("arguments[0].value=arguments[1]", loginEmail,pwdDecrypt);
+		js.executeScript("arguments[0].click()", loginBtn);
+		if(UtilityFunctions.isElelmentDisplayed(driver, signUPAlreadyExistMessage, 10)) {
+			log.error("Email Already Exists...");
+			Assert.fail("SignUp Failed for Email "+Email+"(Email Already Exist..");
+		}
+		else {
+			log.info("User Logged In..");
+			String name = loggedInUserVerification.getText();
+			System.out.println(name);
+			String Expected_Message = AssertionMessage.LoggedInUserMessageVerification+name;
+			String Actual_Message = " Logged in as "+name;
+			Assert.assertEquals(Actual_Message, Expected_Message);	
+		}
+	}
 }

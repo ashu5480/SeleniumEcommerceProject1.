@@ -19,7 +19,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -34,7 +33,7 @@ import ecommerce.utils.ExcelUtility;
 public class BaseClass {
 
 	protected static WebDriver driver;
-	private static Properties prop;
+	protected static Properties prop;
 	protected static ExtentReports extentReports;
 	protected static ExtentTest extentTest;
 	public static Logger log = LogManager.getLogger(BaseClass.class);
@@ -110,7 +109,7 @@ public class BaseClass {
 		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 	}
 
-	@AfterMethod
+	//@AfterMethod
 	public void setStatus(ITestResult result) throws IOException {
 		if(result.getStatus()==ITestResult.SUCCESS) {
 			ExcelUtility.setStatus("Pass", 2, "D:\\SeleniumPractice\\ecommerce.project\\TestCases\\TestCase.xlsx");
@@ -125,6 +124,7 @@ public class BaseClass {
 	public void flushTest() {
 		extentReports.flush();
 		driver.quit();
+		driver.close();
 		log.info("Test Cases Executions are Done..");
 	}
 }
