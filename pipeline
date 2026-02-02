@@ -1,6 +1,9 @@
 pipeline {
     agent any
-
+tools {
+        jdk 'JDK211'
+        maven 'Maven'
+    }
     stages {
         stage('Run Tests') {
             steps {
