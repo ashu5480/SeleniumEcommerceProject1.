@@ -32,3 +32,15 @@
 2026-02-03 15:15:55 INFO  ecommerce.project.base.BaseClass - Password Entered :RmHwVwGlHuIiRHANOx9RVQ==
 2026-02-03 15:16:11 INFO  ecommerce.project.base.BaseClass - User Logged In..
 2026-02-03 15:16:11 INFO  ecommerce.project.base.BaseClass - This Test Case is Passed...loginUsersWithValidCreds
+2026-02-03 15:52:05 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-02-03 15:52:13 INFO  ecommerce.project.base.BaseClass - Email Enteredsinghashu7788@gmail.com
+2026-02-03 15:52:13 INFO  ecommerce.project.base.BaseClass - Password Entered :RmHwVwGlHuIiRHANOx9RVQ==
+2026-02-03 15:52:25 INFO  ecommerce.project.base.BaseClass - User Logged In..
+2026-02-03 15:52:25 INFO  ecommerce.project.base.BaseClass - This test Case is failed...
+2026-02-03 15:52:25 INFO  ecommerce.project.base.BaseClass - Screenshots Captured for failed Test Case..
+2026-02-03 15:52:28 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-02-03 15:52:36 INFO  ecommerce.project.base.BaseClass - Email Enteredsinghashu1000@gmail.com
+2026-02-03 15:52:36 INFO  ecommerce.project.base.BaseClass - Password Entered :RmHwVwGlHuIiRHANOx9RVQ==
+2026-02-03 15:52:49 INFO  ecommerce.project.base.BaseClass - User Logged In..
+2026-02-03 15:52:49 INFO  ecommerce.project.base.BaseClass - This test Case is failed...
+2026-02-03 15:52:50 INFO  ecommerce.project.base.BaseClass - Screenshots Captured for failed Test Case..
