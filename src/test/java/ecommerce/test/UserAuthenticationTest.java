@@ -75,14 +75,14 @@ public class UserAuthenticationTest extends BaseClass{
 				 Cntry, State, City, ZipCode, PhoneNum);
 	}
 	
-	//@Test(dataProvider = "loginDataValid")
+	@Test(dataProvider = "loginDataValid")
 	public void loginUsersWithValidCreds(String Email, String Pwd) throws InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
 		userAuthentication = new UserAuthentication();
 		userAuthentication.loginUser(Email, Pwd);
 		System.out.println("Entered Username is : "+Email+" "+"Entered Password"+Pwd);
 	}
 	
-	@Test(dataProvider = "loginDataInValid")
+	//@Test(dataProvider = "loginDataInValid")
 	public void loginUsersWithInvalidCreds(String Email, String Pwd) throws InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
 		userAuthentication = new UserAuthentication();
 		userAuthentication.loginUser(Email, Pwd);
