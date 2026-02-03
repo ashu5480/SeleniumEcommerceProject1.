@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-01T19:37:35 IST" name="Default suite" finished-at="2026-02-01T19:38:36 IST" duration-ms="61210">
+  <suite started-at="2026-02-03T14:57:19 IST" name="Default suite" finished-at="2026-02-03T14:58:18 IST" duration-ms="59057">
     <groups>
     </groups>
-    <test started-at="2026-02-01T19:37:35 IST" name="Default test" finished-at="2026-02-01T19:38:36 IST" duration-ms="61210">
+    <test started-at="2026-02-03T14:57:19 IST" name="Default test" finished-at="2026-02-03T14:58:18 IST" duration-ms="59057">
       <class name="ecommerce.test.UserAuthenticationTest">
-        <test-method is-config="true" signature="setReports()[pri:0, instance:ecommerce.test.UserAuthenticationTest@346939bf]" started-at="2026-02-01T19:37:35 IST" name="setReports" finished-at="2026-02-01T19:37:35 IST" duration-ms="385" status="PASS">
+        <test-method is-config="true" signature="setReports()[pri:0, instance:ecommerce.test.UserAuthenticationTest@1ce61929]" started-at="2026-02-03T14:57:19 IST" name="setReports" finished-at="2026-02-03T14:57:19 IST" duration-ms="412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setReports -->
-        <test-method is-config="true" signature="userAuthenticate()[pri:0, instance:ecommerce.test.UserAuthenticationTest@346939bf]" started-at="2026-02-01T19:37:35 IST" name="userAuthenticate" finished-at="2026-02-01T19:37:44 IST" duration-ms="8825" status="PASS">
+        <test-method is-config="true" signature="userAuthenticate()[pri:0, instance:ecommerce.test.UserAuthenticationTest@1ce61929]" started-at="2026-02-03T14:57:19 IST" name="userAuthenticate" finished-at="2026-02-03T14:57:34 IST" duration-ms="14551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userAuthenticate -->
-        <test-method signature="loginUsersWithInvalidCreds(java.lang.String,java.lang.String)[pri:0, instance:ecommerce.test.UserAuthenticationTest@346939bf]" started-at="2026-02-01T19:37:44 IST" name="loginUsersWithInvalidCreds" data-provider="loginDataInValid" finished-at="2026-02-01T19:37:55 IST" duration-ms="10795" status="FAIL">
+        <test-method signature="loginUsersWithInvalidCreds(java.lang.String,java.lang.String)[pri:0, instance:ecommerce.test.UserAuthenticationTest@1ce61929]" started-at="2026-02-03T14:57:34 IST" name="loginUsersWithInvalidCreds" data-provider="loginDataInValid" finished-at="2026-02-03T14:57:49 IST" duration-ms="15380" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -31,25 +31,25 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav navbar-nav']//li[10]//a//b"}
-  (Session info: chrome=144.0.7559.97)
+  (Session info: chrome=144.0.7559.110)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e57b46df7ba9aecfd8f3c9241799c059, findElement {using=xpath, value=//ul[@class='nav navbar-nav']//li[10]//a//b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50883}, goog:processID: 22668, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50883/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e57b46df7ba9aecfd8f3c9241799c059]]>
+Command: [1391a9b4d55caba6de8a24e46667cef9, findElement {value=//ul[@class='nav navbar-nav']//li[10]//a//b, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64698}, goog:processID: 4152, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64698/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1391a9b4d55caba6de8a24e46667cef9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav navbar-nav']//li[10]//a//b"}
-  (Session info: chrome=144.0.7559.97)
+  (Session info: chrome=144.0.7559.110)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e57b46df7ba9aecfd8f3c9241799c059, findElement {using=xpath, value=//ul[@class='nav navbar-nav']//li[10]//a//b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50883}, goog:processID: 22668, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50883/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e57b46df7ba9aecfd8f3c9241799c059
+Command: [1391a9b4d55caba6de8a24e46667cef9, findElement {value=//ul[@class='nav navbar-nav']//li[10]//a//b, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64698}, goog:processID: 4152, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64698/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1391a9b4d55caba6de8a24e46667cef9
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -64,8 +64,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:4
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source)
-at ecommerce.main.UserAuthentication.loginUser(UserAuthentication.java:197)
-at ecommerce.test.UserAuthenticationTest.loginUsersWithInvalidCreds(UserAuthenticationTest.java:87)
+at ecommerce.main.UserAuthentication.loginUser(UserAuthentication.java:202)
+at ecommerce.test.UserAuthenticationTest.loginUsersWithInvalidCreds(UserAuthenticationTest.java:88)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -100,11 +100,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUsersWithInvalidCreds -->
-        <test-method is-config="true" signature="userAuthenticate()[pri:0, instance:ecommerce.test.UserAuthenticationTest@346939bf]" started-at="2026-02-01T19:37:55 IST" name="userAuthenticate" finished-at="2026-02-01T19:38:12 IST" duration-ms="16444" status="PASS">
+        <test-method is-config="true" signature="userAuthenticate()[pri:0, instance:ecommerce.test.UserAuthenticationTest@1ce61929]" started-at="2026-02-03T14:57:50 IST" name="userAuthenticate" finished-at="2026-02-03T14:57:58 IST" duration-ms="8428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userAuthenticate -->
-        <test-method signature="loginUsersWithInvalidCreds(java.lang.String,java.lang.String)[pri:0, instance:ecommerce.test.UserAuthenticationTest@346939bf]" started-at="2026-02-01T19:38:12 IST" name="loginUsersWithInvalidCreds" data-provider="loginDataInValid" finished-at="2026-02-01T19:38:33 IST" duration-ms="21569" status="FAIL">
+        <test-method signature="loginUsersWithInvalidCreds(java.lang.String,java.lang.String)[pri:0, instance:ecommerce.test.UserAuthenticationTest@1ce61929]" started-at="2026-02-03T14:57:58 IST" name="loginUsersWithInvalidCreds" data-provider="loginDataInValid" finished-at="2026-02-03T14:58:16 IST" duration-ms="17257" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -120,25 +120,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav navbar-nav']//li[10]//a//b"}
-  (Session info: chrome=144.0.7559.97)
+  (Session info: chrome=144.0.7559.110)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b2a9e7bf9fe0d65591db55187558c587, findElement {using=xpath, value=//ul[@class='nav navbar-nav']//li[10]//a//b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59499}, goog:processID: 1892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59499/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2a9e7bf9fe0d65591db55187558c587]]>
+Command: [eff56beae6bf328a9aad01a650ef21d8, findElement {value=//ul[@class='nav navbar-nav']//li[10]//a//b, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56106}, goog:processID: 10488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56106/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eff56beae6bf328a9aad01a650ef21d8]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@class='nav navbar-nav']//li[10]//a//b"}
-  (Session info: chrome=144.0.7559.97)
+  (Session info: chrome=144.0.7559.110)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
 Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b2a9e7bf9fe0d65591db55187558c587, findElement {using=xpath, value=//ul[@class='nav navbar-nav']//li[10]//a//b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59499}, goog:processID: 1892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59499/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b2a9e7bf9fe0d65591db55187558c587
+Command: [eff56beae6bf328a9aad01a650ef21d8, findElement {value=//ul[@class='nav navbar-nav']//li[10]//a//b, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56106}, goog:processID: 10488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56106/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eff56beae6bf328a9aad01a650ef21d8
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -153,8 +153,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:4
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source)
-at ecommerce.main.UserAuthentication.loginUser(UserAuthentication.java:197)
-at ecommerce.test.UserAuthenticationTest.loginUsersWithInvalidCreds(UserAuthenticationTest.java:87)
+at ecommerce.main.UserAuthentication.loginUser(UserAuthentication.java:202)
+at ecommerce.test.UserAuthenticationTest.loginUsersWithInvalidCreds(UserAuthenticationTest.java:88)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -189,7 +189,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUsersWithInvalidCreds -->
-        <test-method is-config="true" signature="flushTest()[pri:0, instance:ecommerce.test.UserAuthenticationTest@346939bf]" started-at="2026-02-01T19:38:34 IST" name="flushTest" finished-at="2026-02-01T19:38:36 IST" duration-ms="1675" status="FAIL">
+        <test-method is-config="true" signature="flushTest()[pri:0, instance:ecommerce.test.UserAuthenticationTest@1ce61929]" started-at="2026-02-03T14:58:16 IST" name="flushTest" finished-at="2026-02-03T14:58:18 IST" duration-ms="1844" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
@@ -197,7 +197,7 @@ Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59499}, goog:processID: 1892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59499/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56106}, goog:processID: 10488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56106/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
@@ -205,7 +205,7 @@ Build info: version: '4.40.0', revision: 'b3333f1'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.97, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59499}, goog:processID: 1892, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59499/devtoo..., se:cdpVersion: 144.0.7559.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.110, chrome: {chromedriverVersion: 144.0.7559.109 (6a8d5e49388..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56106}, goog:processID: 10488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56106/devtoo..., se:cdpVersion: 144.0.7559.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
