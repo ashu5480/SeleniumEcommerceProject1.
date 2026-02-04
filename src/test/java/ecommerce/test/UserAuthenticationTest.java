@@ -59,12 +59,12 @@ public class UserAuthenticationTest extends BaseClass{
 		};
 	}
 	
-	/*
-	 * @DataProvider(name="getDataFromExcel") public Object[][] excelDataProvider()
-	 * throws IOException{ ExcelUtility.testDataInExcel(
-	 * "D:\\SeleniumPractice\\ecommerce.project\\test-data\\UserSignUPData.xlsx",
-	 * "Sheet1"); return ExcelUtility.getTestData(); }
-	 */
+	  
+	  @DataProvider(name="getDataFromExcel") public Object[][] excelDataProvider()
+	  throws IOException{ ExcelUtility.testDataInExcel(
+	  "D:\\SeleniumPractice\\ecommerce.project\\test-data\\UserSignUPData.xlsx",
+	  "Sheet1"); return ExcelUtility.getTestData(); }
+	 
 
 	//@Test(dataProvider = "signupData")
 	public void signUpUser(String Name, String Email, String gender, String Uname, String UEmail, String UPwd, String Udays,
