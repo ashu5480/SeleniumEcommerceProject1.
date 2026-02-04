@@ -88,3 +88,25 @@
 2026-02-04 18:46:44 INFO  ecommerce.project.base.BaseClass - User Logged In..
 2026-02-04 18:46:44 INFO  ecommerce.project.base.BaseClass - This test Case is failed...
 2026-02-04 18:46:44 INFO  ecommerce.project.base.BaseClass - Screenshots Captured for failed Test Case..
+2026-02-04 19:21:09 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-02-04 19:21:15 INFO  ecommerce.project.base.BaseClass - Email Enteredsinghashu772@gmail.com
+2026-02-04 19:21:15 INFO  ecommerce.project.base.BaseClass - Password Entered :RmHwVwGlHuIiRHANOx9RVQ==
+2026-02-04 19:21:34 INFO  ecommerce.project.base.BaseClass - User Logged In..
+2026-02-04 19:21:34 INFO  ecommerce.project.base.BaseClass - This Test Case is Passed...loginUsersWithValidCreds
+2026-02-04 19:21:37 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-02-04 19:21:44 INFO  ecommerce.project.base.BaseClass - Email Enteredsinghashu10@gmail.com
+2026-02-04 19:21:44 INFO  ecommerce.project.base.BaseClass - Password Entered :RmHwVwGlHuIiRHANOx9RVQ==
+2026-02-04 19:22:02 INFO  ecommerce.project.base.BaseClass - User Logged In..
+2026-02-04 19:22:02 INFO  ecommerce.project.base.BaseClass - This Test Case is Passed...loginUsersWithValidCreds
+2026-02-04 19:22:05 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-02-04 19:22:14 INFO  ecommerce.project.base.BaseClass - Email Enteredsinghashu7788@gmail.com
+2026-02-04 19:22:14 INFO  ecommerce.project.base.BaseClass - Password Entered :RmHwVwGlHuIiRHANOx9RVQ==
+2026-02-04 19:22:26 INFO  ecommerce.project.base.BaseClass - User Logged In..
+2026-02-04 19:22:26 INFO  ecommerce.project.base.BaseClass - This test Case is failed...
+2026-02-04 19:22:26 INFO  ecommerce.project.base.BaseClass - Screenshots Captured for failed Test Case..
+2026-02-04 19:22:29 INFO  ecommerce.project.base.BaseClass - Chrome Browser Initialized
+2026-02-04 19:22:37 INFO  ecommerce.project.base.BaseClass - Email Enteredsinghashu1000@gmail.com
+2026-02-04 19:22:37 INFO  ecommerce.project.base.BaseClass - Password Entered :RmHwVwGlHuIiRHANOx9RVQ==
+2026-02-04 19:22:49 INFO  ecommerce.project.base.BaseClass - User Logged In..
+2026-02-04 19:22:49 INFO  ecommerce.project.base.BaseClass - This test Case is failed...
+2026-02-04 19:22:50 INFO  ecommerce.project.base.BaseClass - Screenshots Captured for failed Test Case..
