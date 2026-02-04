@@ -32,14 +32,6 @@ public class UserAuthenticationTest extends BaseClass{
 		return new Object[][] {
 			{"Ashu", "singhashu80@gmail.com", "Male", "Ashu","singhashu80@gmail.com", "Ashu@123","17",
 				"March", "1997", "Ashu", "Singh", "AE", "A 21", "Dabua Colony", "India", "HR", "FBD","121001","7042579843"},
-				/*
-				 * {"Jiya", "singhashu40@gmail.com", "Female", "Jiya","singhashu40@gmail.com",
-				 * "Jiya@123","8", "March", "2020", "Jiya", "Singh", "AI", "A 21",
-				 * "Dabua Colony", "India", "HR", "FBD","121001","9810134486"}, {"Tulika",
-				 * "singhashu50@gmail.com", "Female", "Tulika","singhashu50@gmail.com",
-				 * "Tulika@123","27", "March", "2000", "Tulika", "Singh", "KP", "A 21",
-				 * "Dabua Colony", "India", "HR", "FBD","121001","9810134496"}
-				 */
 		};
 	}
 	
@@ -60,10 +52,12 @@ public class UserAuthenticationTest extends BaseClass{
 	}
 	
 	  
-	  @DataProvider(name="getDataFromExcel") public Object[][] excelDataProvider()
-	  throws IOException{ ExcelUtility.testDataInExcel(
-	  "D:\\SeleniumPractice\\ecommerce.project\\test-data\\UserSignUPData.xlsx",
-	  "Sheet1"); return ExcelUtility.getTestData(); }
+	/*
+	 * @DataProvider(name="getDataFromExcel") public Object[][] excelDataProvider()
+	 * throws IOException{ ExcelUtility.testDataInExcel(
+	 * "D:\\SeleniumPractice\\ecommerce.project\\test-data\\UserSignUPData.xlsx",
+	 * "Sheet1"); return ExcelUtility.getTestData(); }
+	 */
 	 
 
 	//@Test(dataProvider = "signupData")

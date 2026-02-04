@@ -6,6 +6,7 @@
       <class name="ecommerce.test.UserAuthenticationTest">
         <methods>
           <include name="userAuthenticate"/>
+          <include name="loginUsersWithValidCreds" invocation-numbers="1"/>
           <include name="setReports"/>
           <include name="flushTest"/>
           <include name="loginUsersWithInvalidCreds" invocation-numbers="0 1"/>
