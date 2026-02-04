@@ -47,7 +47,9 @@ public class UserAuthenticationTest extends BaseClass{
 	public Object[][] getloginDataInvalid() throws InvalidKeyException, NoSuchAlgorithmException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException{
 		return new Object[][] {
 			{"singhashu7788@gmail.com", UtilityFunctions.encrypt("Ashu@123")},
-			{"singhashu1000@gmail.com", UtilityFunctions.encrypt("Ashu@123")}
+			{"singhashu1000@gmail.com", UtilityFunctions.encrypt("Ashu@123")},
+			{"singhashu7708@gmail.com", UtilityFunctions.encrypt("Ashu@123")},
+			{"singhashu1090@gmail.com", UtilityFunctions.encrypt("Ashu@123")}
 		};
 	}
 	
