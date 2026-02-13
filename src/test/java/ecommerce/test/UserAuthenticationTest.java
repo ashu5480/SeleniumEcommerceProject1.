@@ -48,21 +48,19 @@ public class UserAuthenticationTest extends BaseClass{
 		return new Object[][] {
 			{"singhashu7788@gmail.com", UtilityFunctions.encrypt("Ashu@123")},
 			{"singhashu1000@gmail.com", UtilityFunctions.encrypt("Ashu@123")},
-			{"singhashu7708@gmail.com", UtilityFunctions.encrypt("Ashu@123")},
-			{"singhashu1090@gmail.com", UtilityFunctions.encrypt("Ashu@123")}
 		};
 	}
 	
 	  
-	/*
-	 * @DataProvider(name="getDataFromExcel") public Object[][] excelDataProvider()
-	 * throws IOException{ ExcelUtility.testDataInExcel(
-	 * "D:\\SeleniumPractice\\ecommerce.project\\test-data\\UserSignUPData.xlsx",
-	 * "Sheet1"); return ExcelUtility.getTestData(); }
-	 */
+	
+	  @DataProvider(name="getDataFromExcel") public Object[][] excelDataProvider()
+	  throws IOException{ ExcelUtility.testDataInExcel(
+	  "D:\\SeleniumPractice\\ecommerce.project\\test-data\\UserSignUPData.xlsx",
+	  "Sheet1"); return ExcelUtility.getTestData(); }
+	 
 	 
 
-	//@Test(dataProvider = "signupData")
+	@Test(dataProvider = "signupData")
 	public void signUpUser(String Name, String Email, String gender, String Uname, String UEmail, String UPwd, String Udays,
 			String UMonths, String UYears, String fname, String lname, String Company, String add1, String add2,
 			String Cntry, String State, String City, String ZipCode, String PhoneNum) throws IOException {
